@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy shop</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <title>Happy shop</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -85,19 +86,19 @@
             <div class="carousel-item active">
                 <img src="img/slide1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Big beats on the go</h2>
+                    <h2 class="display-4 animate__animated animate__zoomIn">Big beats on the go</h2>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="img/slide2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h2 class="display-4">See imagination on display</h2>
+                    <h2 class="display-4 animate__animated animate__zoomIn">See imagination on display</h2> 
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="img/slide3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h2 class="display-4">Life without limits</h2>
+                    <h2 class="display-4 animate__animated animate__zoomIn">Life without limits</h2>
                 </div>
             </div>
         </div>
@@ -113,33 +114,97 @@
 
     <!-- popular -->
     <section class="popular container py-5">
-        <h2 class="text-center">What's popular</h2>
+        <h2 class="text-center mb-5">What's popular</h2>
         <article class="owl-carousel owl-theme text-center">
             <a href="" class="item border d-block">
-                <img src="img/pop1.jpg" alt="">
+                <div class="holder">
+                    <img src="img/pop1.jpg" alt="">
+                </div>
                 <h5>Product 1</h5>
             </a>
             <a href="" class="item border d-block">
-                <img src="img/pop2.jpg" alt="">
+                <div class="holder">
+                    <img src="img/pop2.jpg" alt="">
+                </div>
                 <h5>Product 2</h5>
             </a>
             <a href="" class="item border d-block">
-                <img src="img/pop3.jpg" alt="">
+                <div class="holder">
+                    <img src="img/pop3.jpg" alt="">
+                </div>
                 <h5>Product 3</h5>
             </a>
             <a href="" class="item border d-block">
-                <img src="img/pop4.jpg" alt="">
+                <div class="holder">
+                    <img src="img/pop4.jpg" alt="">
+                </div>
                 <h5>Product 4</h5>
             </a>
             <a href="" class="item border d-block">
-                <img src="img/pop5.jpg" alt="">
+                <div class="holder">
+                    <img src="img/pop5.jpg" alt="">
+                </div>
                 <h5>Product 5</h5>
             </a>
             <a href="" class="item border d-block">
-                <img src="img/pop6.jpg" alt="">
+                <div class="holder">
+                    <img src="img/pop6.jpg" alt="">
+                </div>
                 <h5>Product 6</h5>
             </a>
         </article>
+    </section>
+
+    <!-- new products -->
+    <section class="newProducts container">
+        <h2 class="text-center mb-5">New products</h2>
+        <div class="row">  <!-- <--- jer nemamo kontejner -->
+            <div class="col-md-12 text-center">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fas fa-mobile-alt"></i>Mobile &amp; tablet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-desktop"></i>Computer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-laptop"></i>Laptop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-mouse-pointer"></i>Mouse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-tv"></i>Smart Watches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-headphones-alt"></i>Accessories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-5 slider">
+            <article class="owl-carousel owl-theme text-center">
+                <a href="" class="item border d-block">
+                    <div class="holder">
+                        <img src="img/pop1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>Product 1</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span>100</span>
+                            <span>80</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

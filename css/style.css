@@ -18,6 +18,9 @@ body {
     font-size: var(--fontSize);
     color: var(--text);
 }
+a {
+    transition: var(--transition);
+}
 /************************
 topbar
 ************************/
@@ -52,3 +55,65 @@ slider
 /************************
 popular
 ************************/
+.popular a {
+    text-decoration: none;
+    color: var(--text);
+}
+.popular .holder {
+    overflow: hidden;
+}
+.popular img {
+    transition: var(--transition);
+}
+.popular a:hover {
+    text-decoration: none;
+    background-color: var(--blue);
+    color: var(--white);
+}
+.popular a:hover img {
+    transform: scale(1.1);
+}
+.popular h5 {
+    margin-bottom: 0;
+    padding: 5px;
+}
+/************************
+new products
+************************/
+.newProducts .nav-item {
+   border: 1px solid var(--text);
+   margin: 0 5px;
+   transition: var(--transition);
+}
+.newProducts .nav-item:hover {
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+.newProducts .nav-item a {
+    color: var(--text);
+}
+.newProducts .nav-item:hover a {
+    color: var(--white);
+}
+.newProducts .nav-item a i {
+    margin-right: 10px;
+}
+.newProducts .slider .text {
+    background-color: #fdfdfd;
+    padding: 30px 0;
+    border-top: 1px solid #dee2e6;
+}
+.newProducts .slider a {
+    text-decoration: none;
+}
+.newProducts .stars i {
+    color: #ddd;
+}
+.newProducts .price span:first-child {
+    text-decoration: line-through;
+    color: #999;
+}
+.newProducts .price span:last-child {
+    color: var(--blue);
+    font-weight: 500;
+}
