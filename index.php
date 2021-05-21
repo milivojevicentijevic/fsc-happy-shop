@@ -182,7 +182,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row mt-5 slider">
+        <div class="row mt-5 slider"> <!-- no-gutters (maybe)-->
             <article class="owl-carousel owl-theme text-center">
                 <a href="" class="item border d-block">
                     <div class="holder">
@@ -203,7 +203,125 @@
                         </div>
                     </div>
                 </a>
+                <a href="" class="item border d-block">
+                    <div class="holder">
+                        <img src="img/pop2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>Product 2</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span>100</span>
+                            <span>80</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="item border d-block">
+                    <div class="holder">
+                        <img src="img/pop3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>Product 3</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span>100</span>
+                            <span>80</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="item border d-block">
+                    <div class="holder">
+                        <img src="img/pop4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>Product 4</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span>100</span>
+                            <span>80</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="item border d-block">
+                    <div class="holder">
+                        <img src="img/pop5.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>Product 5</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span>100</span>
+                            <span>80</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="item border d-block">
+                    <div class="holder">
+                        <img src="img/pop6.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>Product 6</h5>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">
+                            <span>100</span>
+                            <span>80</span>
+                        </div>
+                    </div>
+                </a>
             </article>
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-6 ads">
+                <a href="">
+                    <img class="img-fluid" src="img/ad1-1.jpg" alt="">
+                    <div class="text">
+                        <h5>Good to go</h5>
+                        <p>Your headphones are an extension of you, they go with you everywhere</p>
+                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 ads">
+                <a href="">
+                    <img class="img-fluid" src="img/ad2-1.jpg" alt="">
+                    <div class="text">
+                        <h5>Easy Bluetooth</h5>
+                        <p>Connect your smarthpone with One-touch NFC and get the beats going in an instant.</p>
+                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 
