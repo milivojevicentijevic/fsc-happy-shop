@@ -18,6 +18,14 @@ body {
     font-size: var(--fontSize);
     color: var(--text);
 }
+.btn-primary {
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+.btn-primary:hover {
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+}
 a {
     transition: var(--transition);
 }
@@ -189,7 +197,7 @@ slider blog
     border: none;
 }
 .blog .carousel-indicators {
-    bottom: -30px;
+    bottom: -26px;
 } 
 .blog .card-body img {
     width: 20px;
@@ -203,4 +211,97 @@ slider blog
   }
 .blog .carousel-control-prev {
     left: -9%;
+}
+
+/************************
+footer
+************************/
+footer {
+    background-color: #f2f2f2;
+}
+footer a {
+    color: var(--text);
+    line-height: 2;
+    font-size: 1rem;
+}
+footer a:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+footer h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+footer article.d-flex a {
+    margin: 0 5px;
+}
+footer .col-md-3 i {
+    color: #9999;
+}
+footer .col-md-4 i {
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid var(--text);
+    transition: var(--transition);
+    font-size: .9rem;
+}
+footer .col-md-4 i:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border: 1px solid var(--blue);
+}
+/************************
+bottomBar
+************************/
+.bottomBar {
+    background-color: #2b2b2b;
+}
+.bottomBar p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+.bottomBar a {
+    color: --white;
+}
+.bottomBar a:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+/************************
+PRODUCTS.PHP
+************************/
+.products .item {
+    transition: var(--transition);
+}
+.products .item:hover {
+    box-shadow: 0 0 20px lightgray;
+}
+
+/************************
+SINGLE.PHP
+************************/
+.single .list-group-item.active {
+    background-color: var(--blue);
+    border-color: var(--blue);
+    font-size: 1.2rem;
+}
+.single .list-group-item {
+    font-size: 0.9rem;
+}
+.single .col-md-4 span {
+    font-size: 0.85rem;
+}
+.single h2 {
+    font-size: 1.5rem;
+}
+.single .lead {
+    color: var(--orange);
+}
+.single .col-md-8 span {
+    color: var(--green);
+}
+.single select {
+    padding: 7px;
 }
