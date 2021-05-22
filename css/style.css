@@ -159,3 +159,48 @@ new products
     background-color: var(--blue);
     color: var(--white);
 }
+
+/************************
+slider blog
+************************/
+#carouselExample .text {
+    background: var(--blue);
+}
+.blog {
+    background-image: url(../img/parallax-2.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.blog .col-md-6 {
+    flex: 0 0 49%;
+}
+.blog img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.blog .col-md-6 {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.blog .card {
+    border: none;
+}
+.blog .carousel-indicators {
+    bottom: -30px;
+} 
+.blog .card-body img {
+    width: 20px;
+    margin: 0 10px 0 50px;
+}
+.blog .card-body a {
+    color: var(--white);
+}
+.blog .carousel-control-next {
+    right: -9%;
+  }
+.blog .carousel-control-prev {
+    left: -9%;
+}
